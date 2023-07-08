@@ -197,3 +197,33 @@ justify-content: space-around;
     text-align: center;
     margin-top: 50px;
 }
+
+
+/* footer style  */
+
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    margin-top: 100px;
+    padding: 130px 200px;
+    
+}
+
+.footer-column{
+    width: 50%;
+}
+
+
+.contact input[type="text"],input[type="email"], textarea{
+    display: block;
+    margin-top: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    background-color: white;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
