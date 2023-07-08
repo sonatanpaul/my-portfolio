@@ -52,7 +52,6 @@ nav a{
     background-image: url(./images/header_bg.png),url(./images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, top left;
-    width: 100%;
 }
 
 .banner{
@@ -63,7 +62,8 @@ nav a{
 }
 
 .banner .profile-pic{
-    width:500px;
+    width:600px;
+    
 }
 
 .banner-greeting{
