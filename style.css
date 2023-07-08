@@ -217,7 +217,7 @@ footer{
 
 .contact input[type="text"],input[type="email"], textarea{
     display: block;
-    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 18px 35px;
     color: #757575;
     background-color: white;
