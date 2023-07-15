@@ -205,7 +205,7 @@ justify-content: space-around;
 
 /* footer style  */
 
-footer{
+.footer-containar{
     display: flex;
     gap: 100px;
     background-color: #fff8f3;
@@ -228,7 +228,7 @@ footer{
     border: 0;
     font-size: 20px;
     border-radius: 5px;
-    width: 100%;
+    width: 80%;
 }
 
 .social-links a{
@@ -236,3 +236,52 @@ footer{
     margin-left: 50px;
 }
 
+
+
+/* Responsive Style CSS */
+    /* Mobile Device  */
+
+
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+
+
+    .resume-container{
+        flex-direction: column;
+    }
+
+    #what-do, .about {      
+        padding: 10px;
+
+    }
+
+    .skills-container{
+        flex-direction: column;
+    }
+
+    .about-info-container{
+        flex-direction: column;
+    }
+
+    footer{
+        padding: 10px;
+    }
+    .footer-containar{
+        flex-direction: column;
+    }
+
+    .footer-column{
+        width: 100%;
+    }
+    
+    
+}
